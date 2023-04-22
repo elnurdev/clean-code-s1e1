@@ -122,10 +122,10 @@ li > input[type="text"] {
 button.delete img {
   height: 2em;
   transform: rotateZ(45deg);
-  transition: transform 200ms ease-in;
+  transition: all .4s ease-in;
 }
 button.delete img:hover {
-  transform: rotateZ(0);
+  transform: rotateZ(360deg);
 }
 
 ul#completed label {
